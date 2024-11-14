@@ -1,0 +1,76 @@
+.label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+.bold {
+    font-weight: 800;
+}
+.divider {
+    border-bottom: 1px solid black;
+    margin: 2px 0;
+}
+p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.large {
+    height: 10px;
+}
+.left-container p {
+    font-weight: 700;
+    font-size: 1.75em;
+    margin: -5px -2px;
+}
+.medium {
+    height: 5px;
+}
+.right {
+    justify-content: flex-end;
+}
+.indent {
+    text-indent: 1em;
+}
+html {
+    font-size: 16px;
+}
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+.small-text {
+    font-size: 0.85rem;
+}
+.calories {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.calories span {
+    margin: -5px -2px;
+    font-size: 2.3em;
+    font-weight: 700;
+}
+.calories h2 {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.double-indent {
+    margin-left: 2em;
+}
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+}
